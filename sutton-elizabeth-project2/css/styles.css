@@ -1,0 +1,270 @@
+/*----------Header----------*/
+
+header {
+	text-align: center;
+	border: 0;
+	width: 100%;
+	}
+
+/*----------Navigation----------*/
+
+#nav {
+	border: 1px dotted #fff;
+	border-width: 1px 0;
+	border-radius: 20px 20px 0 0;
+	box-shadow: 3px 3px 5px rgba(207,192,162,0.75);
+	background: linear-gradient(90deg, #0099cc, rgba(0,153,204,0.25));
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 1.0em;
+	width: 95%;
+	height: 15px;
+	padding: 10px;
+	margin: 20px;
+	}
+	
+/* unvisited link */
+a:link { 
+	color: #fff;
+	text-decoration: none;
+	}
+
+/* visited link */
+a:visited {
+	color: #fff;
+	text-decoration: none;
+	}
+
+/* mouse over link */
+a:hover {
+	color: #BC2B8D;
+	text-decoration: none;
+	}
+
+/* selected link */
+a:active {
+	color: #942029;
+	text-decoration: none;
+	}
+
+/*----------Body----------*/
+
+#wrapper {
+	background: url("../images/baseball.jpg") no-repeat top center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 0 0 0;
+	}
+
+body {
+	background: url("../images/light_grey_@2X.jpg") repeat;
+	font: 0.875em Arial, Helvetica, sans-serif;
+	color: #666666;
+	text-align: center;
+	line-height: 125%;
+	width: auto;
+	height: auto;
+	}
+
+figure {
+	float: left;
+	margin: auto;
+	}		
+
+figcaption {
+	position: relative;
+	padding: 0 0 15px 0;
+	}
+	
+figcaption span {
+	background-color: #0099cc;
+	padding: 2px;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	}
+	
+p span {
+	background-color: #0099cc;
+	padding: 2px;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	}	
+
+h1 {
+	font-family: "Bree Serif",Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 3.000em;
+	}
+	
+h2 {
+	color: #0099cc;
+	font-family: "Bree Serif",Arial, Helvetica, sans-serif;
+	font-size: 1.750em;
+	font-style: italic;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px rgba(207,192,162,0.75); 
+	}
+	
+h3 {
+	font-family: "Bree Serif",Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	color: #666666;
+	font-size: 1.500em;
+	}
+	
+h4 {
+	text-align: center;
+	width: 65%;
+	padding: 10px 100px 10px 0;
+	}
+	
+em {
+	color:#BC2B8D;
+	float: left;
+	margin: auto;
+	} 
+	
+ul {
+	padding: 0 0 20px 0;
+	line-height: 150%;
+	}
+	
+li 	{
+	list-style: square inside;
+	}
+	
+#content {
+	float: left;
+	width: 65%;
+	margin: 2%;
+	text-align: left;
+	line-height: 120%;
+	padding: 0 0 0 30px;
+	}
+	
+#teams {
+	width: 100%;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: run-in;
+	-webkit-columns: 100px 2;
+	-moz-columns: 100px 2;
+	columns: 100px 2;
+	}
+	
+#sidebar {
+	background-color: #0099cc;
+	float: right;
+	text-align: center;
+	width: 15%;
+	height: 100%;
+	padding: 20px;	
+	margin: 5%;
+	display: inline-block;
+	}
+	
+/*----------Body:Table----------*/
+
+table, th, td {
+   	margin: 15px 0 0 0;
+   	padding: 5px;
+   	text-align: center;
+	}
+
+table {
+	width: auto;
+	height: auto;
+	border-collapse: collapse;	
+	}
+
+th {
+    color: #fff;
+	height: 15px;
+    background-color: #0099cc;
+    border: 1px solid #0099cc;
+	}
+	
+td {
+   	font-size: 0.85em;
+   	border: 1px solid rgba(207,192,162,0.75);
+	}
+	
+td:hover {
+	background-color: rgba(207,192,162,0.25);
+	}
+	
+IMG.main {
+	padding: 0 20px 0 0;
+	float: left;
+	margin: 10px;
+	}
+	
+	
+/*----------Body:Form----------*/
+	
+form {
+	width: 25%;
+	font-size: 0.85em;
+	color: #0099cc;
+	text-align: center;
+	border: 1px solid rgba(207,192,162,0.75);
+	float: right;
+	padding: 15px;
+	margin: 2px;
+	background: rgba(0,153,204,0.1);
+	}
+	
+input {
+	width: auto;
+	padding: 0.25em;
+	}
+
+INPUT:hover {
+	background-color: rgba(207,192,162,0.25);
+	}
+	
+INPUT:focus {
+	background-color: rgba(207,192,162,0.5);
+	}
+	
+INPUT:focus:hover {
+	background-color: rgba(207,192,162,0.75);
+	}
+	
+select[name="method"] {
+	margin: 3%;
+	}
+
+input[type="submit"] {
+	background: #0099cc;
+	color: #fff;
+	border: 1px solid #0099cc;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 6%;
+	}	
+			
+/*----------Footer----------*/
+
+footer {
+	background-color: #0099cc;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 0.85em;
+	width: 100%;
+	height: 80px;
+	padding: 10px 0 0 0;
+	float: left;
+	border-radius: 0 0 20px 20px;
+	}
+
+.footer-content {
+	float: left;
+	margin: 2%;
+	width: 100%;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	}
