@@ -51,14 +51,14 @@ a:active {
 /*----------Body----------*/
 
 #wrapper {
-	background: url("../images/baseball.jpg") no-repeat top center;
+	background: url("../images/headlights.jpg") no-repeat top center;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 50px 0 0 0;
 	}
 
 body {
-	background: url("../images/light_grey_@2X.jpg") repeat;
+	background: url("../images/debut_light_@2X.png") repeat;
 	font: 0.875em Arial, Helvetica, sans-serif;
 	color: #666666;
 	text-align: center;
