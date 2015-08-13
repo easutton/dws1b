@@ -4,34 +4,53 @@
 	margin-right: auto;
 	padding: 0;
 	border: 0;
-	}
-	
+	}	
+
 h1 {
-	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
-	font-weight: 400;
-	color: #263640;
-	font-size: 4.000em;
-	text-transform: uppercase;
-	text-align: center;
+	background: url("../images/headlights.jpg") no-repeat center top;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px rgba(102,102,102,0.5);
+	width: 240px;
+	height:186px;
 	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-indent: -9999px; 
 	}
 	
 h2 {
 	color: #435C73;
 	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
-	font-size: 1.750em;
+	font-size: 2.5em;
 	font-weight: 700;
 	text-shadow: 2px 2px 2px rgba(207,192,162,0.75); 
 	}
 	
 h3 {
 	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 	color: #666666;
-	font-size: 1.500em;
+	font-size: 1.5em;
+	text-transform: uppercase;
 	}
 	
-nav, h4 {
+h4 {
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: #666666;
+	font-size: 1.5em;
+	font-style: italic;
+	}
+	
+h5 {
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: #666666;
+	font-size: 1em;
+	text-transform: uppercase;
+	}
+	
+nav {
 	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 	font-weight: 500;
 	color: #CC7055;
@@ -39,6 +58,14 @@ nav, h4 {
 	text-align: center;
 	text-transform: uppercase;
 	padding: 0;
+	}
+	
+em {
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	color: #666666;
+	font-size: 0.75em;
 	}	
 	
 /* unvisited link */
@@ -70,9 +97,7 @@ ul, ol {
 	line-height: 150%;
 	}
 	
-li 	{
-	list-style: square inside;
-	}
+
 
 header {
 	text-align: center;
@@ -80,7 +105,7 @@ header {
 	width: 100%;
 	}
 	
-#main, #main_content, #sidebar {
+#main, #main_content, #sidebar, #photo_gallery {
 	line-height: 130%;
 	text-align: center;
 	margin-left: auto;
@@ -95,15 +120,16 @@ figure {
 
 figcaption {
 	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
-	font-weight: 700;
+	font-weight: 300;
 	color: #CC7055;
-	font-size: 1em;
+	font-size: .75em;
 	text-align: center;
 	font-style: italic;
-	padding: 0;
+	padding: 0 0 30px 0;
 	}
 	
-p {
+p, li {
+	list-style: square inside;
 	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 	font-weight: 100;
 	color: #333;
@@ -112,10 +138,15 @@ p {
 	padding: 0;
 	}
 	
-IMG.main {
+div.img img {
 	padding: 0;
-	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 25px;
 	box-shadow: 5px 5px 5px rgba(102,102,102,0.5);
+	}
+	
+blockquote {
+	font-style: italic;
 	}
 	
