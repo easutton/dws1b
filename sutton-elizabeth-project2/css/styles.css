@@ -1,3 +1,47 @@
+/*----------Header----------*/
+
+header {
+	text-align: center;
+	border: 0;
+	width: 100%;
+	}
+
+
+/*----------Navigation----------*/
+
+nav {
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	color: #CC7055;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+	}
+
+a:link { 
+	color: #F28963;
+	text-decoration: none;
+	}
+
+a:visited {
+	color: #F28963;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #435C73;
+	text-decoration: none;
+	}
+
+a:active {
+	color: #435C73;
+	text-decoration: none;
+	}
+
+
+/*----------Body----------*/
+
 #wrapper {
 	background: #F2E3D5;
 	margin-left: auto;
@@ -50,16 +94,6 @@ h5 {
 	text-transform: uppercase;
 	}
 	
-nav {
-	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
-	font-weight: 500;
-	color: #CC7055;
-	font-size: 1em;
-	text-align: center;
-	text-transform: uppercase;
-	padding: 0;
-	}
-	
 em {
 	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 	font-weight: 500;
@@ -68,41 +102,9 @@ em {
 	font-size: 0.75em;
 	}	
 	
-/* unvisited link */
-a:link { 
-	color: #F28963;
-	text-decoration: none;
-	}
-
-/* visited link */
-a:visited {
-	color: #F28963;
-	text-decoration: none;
-	}
-
-/* mouse over link */
-a:hover {
-	color: #435C73;
-	text-decoration: none;
-	}
-
-/* selected link */
-a:active {
-	color: #435C73;
-	text-decoration: none;
-	}
-	
 ul, ol {
 	padding: 0 0 20px 0;
 	line-height: 150%;
-	}
-	
-
-
-header {
-	text-align: center;
-	border: 0;
-	width: 100%;
 	}
 	
 #main, #main_content, #sidebar, #photo_gallery {
@@ -148,5 +150,4 @@ div.img img {
 	
 blockquote {
 	font-style: italic;
-	}
-	
+	}	
