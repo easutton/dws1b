@@ -1,49 +1,71 @@
 #wrapper {
-	background: url("../images/headlights.jpg") no-repeat top center;
+	background: #F2E3D5;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 50px 0 0 0;
+	padding: 0;
+	border: 0;
 	}
 	
 h1 {
-	font-family: "Roboto",Arial, Helvetica, sans-serif;
-	color: #fff;
-	font-size: 3.000em;
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #263640;
+	font-size: 4.000em;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0;
 	}
 	
 h2 {
-	color: #0099cc;
-	font-family: "Roboto",Arial, Helvetica, sans-serif;
+	color: #435C73;
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 	font-size: 1.750em;
-	font-style: italic;
 	font-weight: 700;
 	text-shadow: 2px 2px 2px rgba(207,192,162,0.75); 
 	}
 	
 h3 {
-	font-family: "Roboto",Arial, Helvetica, sans-serif;
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 	font-weight: 500;
 	color: #666666;
 	font-size: 1.500em;
 	}
 	
-#nav {
-	border: 1px dotted #fff;
-	border-width: 1px 0;
-	border-radius: 20px 20px 0 0;
-	box-shadow: 3px 3px 5px rgba(207,192,162,0.75);
-	background: linear-gradient(90deg, #0099cc, rgba(0,153,204,0.25));
-	font-family: Arial, Helvetica, sans-serif;
-	color: #fff;
+nav, h4 {
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	color: #CC7055;
+	font-size: 1em;
 	text-align: center;
-	font-size: 1.0em;
-	width: 95%;
-	height: 15px;
-	padding: 10px;
-	margin: 20px;
+	text-transform: uppercase;
+	padding: 0;
+	}	
+	
+/* unvisited link */
+a:link { 
+	color: #F28963;
+	text-decoration: none;
+	}
+
+/* visited link */
+a:visited {
+	color: #F28963;
+	text-decoration: none;
+	}
+
+/* mouse over link */
+a:hover {
+	color: #435C73;
+	text-decoration: none;
+	}
+
+/* selected link */
+a:active {
+	color: #435C73;
+	text-decoration: none;
 	}
 	
-ul {
+ul, ol {
 	padding: 0 0 20px 0;
 	line-height: 150%;
 	}
@@ -58,10 +80,42 @@ header {
 	width: 100%;
 	}
 	
-#main {
-	width: 65%;
-	margin: 2%;
-	text-align: left;
-	line-height: 120%;
-	padding: 0 0 0 30px;
+#main, #main_content, #sidebar {
+	line-height: 130%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	border: 0;
 	}
+	
+figure {
+	margin: auto;
+	}		
+
+figcaption {
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: #CC7055;
+	font-size: 1em;
+	text-align: center;
+	font-style: italic;
+	padding: 0;
+	}
+	
+p {
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	color: #333;
+	font-size: 1em;
+	text-align: center;
+	padding: 0;
+	}
+	
+IMG.main {
+	padding: 0;
+	margin: 10px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px rgba(102,102,102,0.5);
+	}
+	
