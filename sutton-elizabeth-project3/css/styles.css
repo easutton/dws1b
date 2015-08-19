@@ -12,32 +12,40 @@ header {
 nav, footer {
 	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 	font-weight: 500;
-	color: #CC7055;
+	color: #fff;
 	font-size: 1em;
 	text-align: center;
 	width: 100%;
+	height: 63px;
 	text-transform: uppercase;
 	padding: 0;
+	margin: 0 0 20px 0;
+	clear: both;
+	background: #339999;
 	}
 
 a:link { 
-	color: #F28963;
+	color: #fff;
 	text-decoration: none;
+	background-color: #339999; 
 	}
 
 a:visited {
-	color: #F28963;
+	color: #fff;
 	text-decoration: none;
+	background-color: #339999; 
 	}
 
 a:hover {
-	color: #435C73;
+	color: #ffcc33;
 	text-decoration: none;
+	background-color: #339999; 
 	}
 
 a:active {
-	color: #435C73;
+	color: #ffcc33;
 	text-decoration: none;
+	background-color: #339999; 
 	}
 
 
@@ -76,7 +84,7 @@ h2 {
 h3 {
 	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 	font-weight: 700;
-	color: #666666;
+	color: #339999;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	}
@@ -95,6 +103,18 @@ h5 {
 	color: #666666;
 	font-size: 1em;
 	text-transform: uppercase;
+	text-align: left;
+	padding: 0;
+	}
+	
+h6 {
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	color: #339999;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 20px 0;
 	}
 	
 em {
@@ -119,8 +139,9 @@ ul#footernavlinks li {
 	} 
 
 ol {
-	padding: 0 0 20px 0;
-	line-height: 150%;
+	padding: 0;
+	line-height: 100%;
+	overflow: hidden;
 	}
 	
 li {
@@ -130,20 +151,21 @@ li {
 #main, #main_content, #massprod {
 	line-height: 130%;
 	text-align: left;
-	width: 40%;
+	width: 60%;
 	padding: 0;
 	border: 0;
+	float: left;
 	}
 	
 aside {
 	text-align: center;
-	padding: 0;
 	border: 0;
 	margin: 5%;
-	padding: 5px;
+	padding: 0 25px;
 	background-color: #efefef;
 	width: 20%;
-	float: left;
+	float: right;
+	vertical-align: top;
 	}
 	
 figure {
@@ -155,9 +177,9 @@ figcaption {
 	font-weight: 300;
 	color: #CC7055;
 	font-size: .75em;
-	text-align: center;
+	text-align: left;
 	font-style: italic;
-	padding: 0 0 30px 0;
+	padding: 0;
 	}
 	
 p, li {
@@ -169,6 +191,8 @@ p, li {
 	text-align: left;
 	padding: 0;
 	}
+	
+
 	
 div.img img {
 	padding: 0;
@@ -186,5 +210,5 @@ blockquote {
 	margin-right: auto;
 	padding: 0;
 	border: 0;
-	width: 65%;
+	width: 100%;
 	}	
