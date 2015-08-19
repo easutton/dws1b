@@ -46,10 +46,10 @@ a:active {
 #wrapper, body {
 	background: #F2E3D5;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;	
 	padding: 0;
 	border: 0;
-	width: 100%;
+	width: 95%;
 	height: 100%;
 	}	
 
@@ -130,34 +130,20 @@ li {
 #main, #main_content, #massprod {
 	line-height: 130%;
 	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
+	width: 40%;
 	padding: 0;
 	border: 0;
-	width: 65%;
-	}
-	
-sidebar {
-	text-align: center;
-	padding: 0;
-	border: 0;
-	margin: 5px;
-	padding: 5px;
-	background-color: #efefef;
-	width: 20%;
-	float: left;
 	}
 	
 aside {
 	text-align: center;
 	padding: 0;
 	border: 0;
-	margin: 5px;
+	margin: 5%;
 	padding: 5px;
 	background-color: #efefef;
 	width: 20%;
 	float: left;
-	display: inline;
 	}
 	
 figure {
