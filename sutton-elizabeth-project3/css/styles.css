@@ -164,7 +164,7 @@ li {
 	margin: 20px;
 	}
 	
-#main, #main_content, #massprod {
+#main {
 	line-height: 130%;
 	text-align: left;
 	width: 60%;
@@ -229,4 +229,16 @@ aside {
 	width: 20%;
 	float: right;
 	vertical-align: top;
+	}
+	
+div.gallery_pics img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: auto;
+	}
+	
+#gallery_fig {
+	text-align: center;
+	padding: 10px 0;
 	}
