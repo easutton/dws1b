@@ -205,6 +205,91 @@
 			</figure>		
 		
 			<h6><a href="#top">Go to top</a></h6>
+			
+			<!-- begin form -->
+		<form action="http://example.com/join.php">
+		 
+		<h3>What Was Your First Car?</h3> 
+
+			<fieldset id="input1">
+				<legend>Car Details</legend>
+				
+				<label for="year">Year</label>
+				<input type="text" name="year"
+		 			maxlength="30" placeholder="Year of Car"
+		 			required="required" /><br>
+				
+				<label for="make">Make</label>
+				<input type="text" name="make"
+		 			id="make" placeholder="Make of Car"
+		 			required="required" /><br>
+		 	
+		 		<label for="model">Model</label>
+				<input type="text" name="model"
+		 			maxlength="30" placeholder="Model of Car"
+		 			required="required" /><br>
+		 	
+				What condition was the car?
+				<input id="new" type="radio"
+					name="new" value="a"  />
+				<label for="new">New</label>
+			
+				<input id="used" type="radio"
+					name="used" value="a"  />
+				<label for="used">Used</label>				
+		
+				<p>Briefly, tell us why you chose this car:</p>
+		
+				<textarea name="comments">
+					Enter your comments... 
+				</textarea><br>
+			
+			</fieldset>
+								
+		 	<br>
+			
+			<fieldset id="input2">
+				<legend>About You</legend>
+				
+				<label for="name">Your Name:</label>
+					<input type="text" name="Your Name"
+		 			maxlength="30" placeholder="First/last name"
+		 			required="required" /><br>
+			
+				<label for="email">Your E-Mail Address:</label>
+		 		<input type="email" name="email"
+		 			maxlength="30" placeholder="E-mail address"
+		 			required="required" /><br>	
+		 	
+				<label for="phone">Your Phone Number:</label>
+		 		<input type="text" name="Your Phone Number"
+		 			maxlength="30" placeholder="Phone number"
+		 			required="required" /><br>	
+		 	
+		 		<input type="radio" name="phone"
+					value="Home Number"  required="required" /> Home Number
+				
+				<input type="radio" name="phone"
+					value="Mobile Number" required="required" /> Mobile Number<br>
+		 	
+		 		<label for="method">Best method to reach you:</label>
+				<!--begin dropdown list-->
+			 	<select name="method">
+		 	
+			 	<option value="email">E-mail</option> 
+		 		
+			 	<option value="phone">Phone</option>
+			 	
+			 	</select>
+			 	
+			 </fieldset>
+		 	
+		 	<input type="submit" value="Submit"  />	
+		 	
+		 </form><!-- end form -->
+		 
+		 	<h6><a href="#top">Go to top</a></h6>
+	
 		</aside><!-- end main content -->
 		
 	<footer><!-- begin secondary nav -->
